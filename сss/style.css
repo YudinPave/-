@@ -1,0 +1,129 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+.header{
+	background-color: #47962B;
+}
+.container{
+	max-width: 1110px;
+     margin: 0 auto;
+}
+.container_header{
+	display: flex;
+	justify-content: space-between ;
+	align-items:center ;
+	padding: 27px 0;
+}
+.nav__list{
+	list-style: none;
+	display: flex;
+}
+.nav__item{
+	margin: 63px;
+	color: #E4E4E4;
+	color: #E4E4E4;
+font-family: Nico Moji;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;	
+}
+.nav__link{
+	color: #30E3CA;
+	transition: 0.5;
+	text-decoration: none;
+}
+.nav__link:hover {
+	color: #1FAB89;
+}
+.hero-block{
+background: #FF9E9E
+}
+.container_hero-block{
+	padding: 66px 0;
+	display: flex;
+    align-items:center ;
+    justify-content:space-between ;
+}
+.hero-block__title{
+	color: #000;
+font-family: Nico Moji;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-block__text{
+	color: #000;
+font-family: Nico Moji;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-block__content{
+	max-width: 475px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-block__img{
+	margin-right: 113px;
+}
+.video{
+ background: #E2D590;
+}
+.container_video{
+	padding: 70px 0 134px;
+}
+.video__video{
+	width: 100%;
+	height: 511px;
+	border: 45px solid #468EB6;
+	border-radius: 29px;
+	box-sizing: border-box;
+}
+.video__title{
+color: #0F6;
+font-family: Nico Moji;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+margin-bottom: 70px;
+}
+.footer{
+	background: #7233A3;
+}
+.container_footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 0 52px;
+}
+.footer__title{
+	color: #E4E4E4;
+font-family: Nico Moji;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer__text{
+	color: #FFF;
+font-family: Nico Moji;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 164.063%; /* 26.25px */
+}
+.footer__list{
+ display: flex;
+ list-style: none;
+}
+.footer__item{
+	margin-right: 40px;
+}
